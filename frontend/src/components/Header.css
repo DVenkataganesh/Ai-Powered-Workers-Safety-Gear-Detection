@@ -1,0 +1,21 @@
+/* src/components/Header.css */
+.header {
+    background-color:#007bff; 
+    color:white; 
+    padding:15px; 
+    display:flex; 
+    justify-content:flex-end; 
+    align-items:center; 
+ }
+ .header button {
+    margin-left:auto; 
+    padding:.5em .75em; 
+    background-color:#dc3545; 
+    border:none; 
+    color:white; 
+    cursor:pointer; 
+ }
+ .header button:hover {
+    background-color:#c82333; 
+ }
+ 

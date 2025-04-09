@@ -1,0 +1,16 @@
+.sidebar a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 8px;
+    margin: 5px 10px;
+}
+
+.sidebar a:hover {
+    background-color: #495057; /* Darker shade for hover effect */
+    transform: translateX(5px); /* Smooth slide animation */
+    color: #e0e0e0; /* Slightly lighter text color on hover */
+}

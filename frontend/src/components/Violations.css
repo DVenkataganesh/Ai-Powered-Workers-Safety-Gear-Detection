@@ -1,0 +1,83 @@
+/* Violations.css */
+.violations-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.violations-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.filter-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.back-button {
+    background-color: #6c757d;
+    color: white;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.violations-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.violations-table th,
+.violations-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.violations-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.violations-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.no-violations {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}

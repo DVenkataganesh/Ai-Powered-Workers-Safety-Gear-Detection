@@ -1,0 +1,12 @@
+config:
+  target: "http://localhost:7755"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+  defaults:
+    headers:
+      Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTc0MjIxODQyMSwiZXhwIjoxNzQyMjIyMDIxfQ.4ShDEp0Tp6cSKQ5yx9LjKOBUwBs7ehcDgqMqzy6yD08"
+scenarios:
+  - flow:
+      - get:
+          url: "/api/violations"
