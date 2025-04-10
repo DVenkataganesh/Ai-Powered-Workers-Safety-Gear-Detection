@@ -9,10 +9,10 @@ app.use(cors({ origin: 'http://localhost:3000' })); // Adjust the origin if your
 
 // Set up MySQL connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'mysql.railway.internal',
   user: 'root',
-  password: '1682', // Update with your MySQL password
-  database: 'projectyolo', // Update with your database name
+  password: 'czUDHlJfqioKBtGQOfNqLhRqrIrfSyeh', // Update with your MySQL password
+  database: 'railway', // Update with your database name
 });
 
 // Connect to the MySQL database
